@@ -2,7 +2,7 @@ import { ArrowRight, Circle, CircleCheck } from "lucide-react";
 
 export default function BookingTable({ tableHeadings, displayedBookings }) {
     return (
-        <div className="overflow-x-scroll w-full">
+        <div className="overflow-x-auto w-full">
             <table className="w-full text-left">
                 {/* Table Head */}
                 <thead className="bg-muted/50">

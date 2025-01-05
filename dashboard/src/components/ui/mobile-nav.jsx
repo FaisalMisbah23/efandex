@@ -17,7 +17,7 @@ export default function MobileNav() {
                 <VisuallyHidden.Root>Mobile Navigation</VisuallyHidden.Root>
             </SheetTitle>
 
-            <div className="flex items-center justify-evenly px-6 py-4">
+            <div className="flex items-center justify-between px-6 py-4">
                 {/* Sheet Trigger: Mobile Hamburger Menu */}
                 <SheetTrigger asChild>
                     <Button variant="outline" size="icon" className="md:hidden">

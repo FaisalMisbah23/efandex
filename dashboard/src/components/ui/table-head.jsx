@@ -6,7 +6,7 @@ import TableMenu from "./table-menu";
 
 export default function TableHead({ title, search, setSearch }) {
     return (
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex justify-between items-center gap-2 mb-8">
             <h2 className="text-xl font-semibold">{title}</h2>
             <Input
                 placeholder="Search here..."
@@ -14,7 +14,7 @@ export default function TableHead({ title, search, setSearch }) {
                 onChange={(e) => setSearch(e.target.value)}
                 className="w-[427px]"
             />
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
                 <DatePicker />
                 <Button>
                     <span>Export</span> <Send />

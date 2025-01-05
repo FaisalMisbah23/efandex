@@ -15,7 +15,7 @@ export default function Home() {
       <div className="container mx-auto p-4 flex flex-col gap-6">
 
         {/* Stats Cards Section */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
           <StatsCard title="Active Users" data={stats.activeUsers} />
           <StatsCard title="Total Properties" data={stats.totalProperties} />
           <StatsCard title="Total Revenue" data={stats.totalRevenue} />

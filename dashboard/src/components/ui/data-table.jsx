@@ -22,7 +22,7 @@ export default function BookingsTable({ tableHeadings, data }) {
   );
 
   return (
-    <div className="w-full px-4 pt-6 pb-12 bg-white shadow rounded-md overflow-x-scroll">
+    <div className="w-full px-4 pt-6 pb-12 bg-white shadow rounded-md overflow-x-auto">
       {/* Table Header */}
       <TableHead title={"Recent Bookings"} search={search} setSearch={setSearch} />
 
